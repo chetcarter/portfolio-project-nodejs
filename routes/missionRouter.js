@@ -17,7 +17,7 @@ missionRouter
 	})
 	.post((req, res) => {
 		res.end(
-			`Will add the mission: ${req.body.program} with the start date: ${req.body.startdate} and the end date: ${req.body.enddate} and the number of missions: ${req.body.missions} and the note: ${req.body.note}`
+			`Will add the mission: ${req.body.program} with the start date: ${req.body.startdate} and the end date: ${req.body.enddate} and the number of launches: ${req.body.launches} and the note: ${req.body.note}`
 		);
 	})
 	.put((req, res) => {
@@ -46,7 +46,7 @@ missionRouter
 	})
 	.put((req, res) => {
 		res.write(
-			`Updating the mission: ${req.body.program} with the start date: ${req.body.startdate} and the end date: ${req.body.enddate} and the number of missions: ${req.body.missions} and the note: ${req.body.note}`
+			`Updating the mission: ${req.body.program} with the start date: ${req.body.startdate} and the end date: ${req.body.enddate} and the number of launches: ${req.body.launches} and the note: ${req.body.note}`
 		);
 	})
 	.delete((req, res) => {
